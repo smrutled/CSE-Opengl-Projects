@@ -1,0 +1,11 @@
+Windows VS 2010- FreeGlut - Librarys included
+
+Right click to bring up game menu
+
+Left and Right arrow to move tank
+Up and Down arrow to move cannon
+Space to shoot
+
+All objects are kept in a single vector except the Player object
+
+Orbiter object can have infinite amount of orbits that can be static or not

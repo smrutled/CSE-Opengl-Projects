@@ -1,0 +1,25 @@
+Windows VS 2010- FreeGlut - Librarys included
+
+I used the example files provided to help created this program
+
+Menu
+Right click to bring up game menu
+
+Controls
+Left and Right arrow to rotate camera
+Up and Down arrow to move forward and backwards
+S and A to move camera up and down
+W and Q to rotate camera view up and down
+
+Camera
+Is it own class.
+I used spherical coordinates and then converted to cartesian coordinates
+
+MeshObjects
+I created a mesh object class that with sub classes for each basic shape. All objects can be stored in a single vector and rendered with same render function.
+
+Mesh Loader
+Used example loader to load data file. Then imported vertices and indices into my MeshObject class to format for my render function.
+
+
+

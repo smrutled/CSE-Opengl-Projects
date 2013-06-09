@@ -1,0 +1,7 @@
+Windows VS 2010- FreeGlut - Librarys included
+
+Left click to bring up draw menu
+
+Used red book to help understand basic shapes
+
+Custom shapes: Smiley face, Pacman

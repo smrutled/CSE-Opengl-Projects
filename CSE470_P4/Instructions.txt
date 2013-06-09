@@ -1,0 +1,39 @@
+Windows VS 2010- FreeGlut - Librarys included
+Release EXE - \CSE470_P4\Release\CSE470_P4.exe
+
+Based of Project 3
+I used the example files provided to help created this program
+
+Menu
+Right click to bring up game menu
+
+Controls
+
+Camera Controls
+Left and Right arrow to rotate camera
+Up and Down arrow to move forward and backwards
+S and A to move camera up and down
+W and Q to rotate camera view up and down
+
+Light Controls
+Left and Right arrow to move light
+
+
+MeshObjects
+Added a new constructor to all sub MeshObjects for passing in a texture id thus enabling texture coordinates
+
+Textures
+Loaded with stb_image.
+Function for loading all the textures: load_textures
+
+Material
+There is a "material_design" function that is used to change the material properties based on the texture of the object when enabled
+
+Normals
+MeshBox shading seems to work better with face normal - Probably need to have sub divide each face in to smaller rectangles in order to improve shading.
+
+MeshSphere
+Used http://learningwebgl.com/blog/?p=1253 for understanding how to generate a uv sphere and code
+
+MeshCone
+Modified algorithm from Sphere to create a better Cone algorithm for texturing.

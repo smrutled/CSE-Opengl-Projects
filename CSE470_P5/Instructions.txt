@@ -1,0 +1,33 @@
+Windows VS 2010- FreeGlut - Librarys included
+
+I get an error when i run it in Release mode
+Debug EXE - \CSE470_P5\Debug\CSE470_P5.exe
+
+Based of Raytracer example code
+I used the example files provided to help created this program
+
+Menu
+Right click to bring up game menu
+
+When a new scene is loaded the program default back to normal rendering.
+
+Sphere intersection detection
+Use of pseudocode from here http://www.cs.unc.edu/~rademach/xroads-RT/RTarticle.html
+and http://www.codermind.com/articles/Raytracer-in-C++-Part-I-First-rays.html
+
+Triangle intersection detection
+used http://www.lighthouse3d.com/tutorials/maths/ray-triangle-intersection/
+
+Model intersection detection
+Uses triangle intersection
+
+
+Coloring and Shading
+Currently seems to only work for spheres
+
+Scene
+scene1.xml
+scene2.xml
+scene3.xml
+
+
